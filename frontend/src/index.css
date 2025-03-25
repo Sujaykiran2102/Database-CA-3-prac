@@ -1,0 +1,54 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.friends-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.friend-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 250px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.friend-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.friend-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+.friend-form input {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
